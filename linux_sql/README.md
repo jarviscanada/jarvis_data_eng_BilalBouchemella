@@ -47,7 +47,7 @@ crontab -e
 ## Implementation
 
 ### Architecture
-![Cluster Diagram](./assets/cluster_diagram.png)
+![Cluster Diagram](./assets/Cluster_Diagram.png)
 As the diagram shows, three Rocky Linux hosts run Bash monitoring agent scripts to collect hardware and usage data. Each host sends these metrics directly to a centralized PostgreSQL database, where all information is stored and analyzed in one place.
 
 
@@ -114,7 +114,7 @@ Stores static hardware information for each node in the cluster. Each row repres
 - `timestamp`: UTC timestamp indicating when this hardware information was collected
 
 #### `host_usage`
-Stores real-time resource usage metrics collected at regular intervals (typically every minute). Each row represents one snapshot of system usage.
+Stores real-time resource usage metrics collected at regular intervals (every minute). Each row represents one snapshot of system usage.
 - `timestamp`: UTC time when the usage metrics were recorded for the host
 - `host_id`: Foreign key referencing the corresponding host in the host_info table
 - `memory_free`: Amount of free memory, in MB, at the moment of data collection 
