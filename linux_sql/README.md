@@ -138,8 +138,8 @@ Overall, every component behaved as expected and the monitoring pipeline ran smo
 ## Deployment
 The project was deployed using GitHub, Docker, and crontab. The PostgreSQL database runs in a Docker container managed through the `psql_docker.sh` script, making it easy to start or stop the environment. All Bash scripts and SQL files were version-controlled and pushed to GitHub for easy access and collaboration. To automate the monitoring process, I set up a crontab job that runs `host_usage.sh` every minute, allowing the system to collect and store usage data continuously without any manual work.
 
-## Improvements
 
+## Improvements
 **1. Add error handling and logging:** The monitoring scripts would benefit from more detailed error checks and structured logging to make troubleshooting easier.
 
 **2. Handle hardware updates automatically:** Hardware information is only collected once. The system could be enhanced by detecting changes in CPU, memory, or disk configuration and updating the database accordingly.
