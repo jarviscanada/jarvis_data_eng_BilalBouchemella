@@ -140,9 +140,9 @@ The project was deployed using GitHub, Docker, and crontab. The PostgreSQL datab
 
 ## Improvements
 
-- **1. Add error handling and logging:** The monitoring scripts would benefit from more detailed error checks and structured logging to make troubleshooting easier.
+**1. Add error handling and logging:** The monitoring scripts would benefit from more detailed error checks and structured logging to make troubleshooting easier.
 
-- **2. Handle hardware updates automatically:** Hardware information is only collected once. The system could be enhanced by detecting changes in CPU, memory, or disk configuration and updating the database accordingly.
+**2. Handle hardware updates automatically:** Hardware information is only collected once. The system could be enhanced by detecting changes in CPU, memory, or disk configuration and updating the database accordingly.
 
-- **3.Create automated backup routines:** Adding a scheduled backup process for the PostgreSQL database would help protect monitoring data and ensure it can be restored in case of failures or accidental data loss.
+**3.Create automated backup routines:** Adding a scheduled backup process for the PostgreSQL database would help protect monitoring data and ensure it can be restored in case of failures or accidental data loss.
 
