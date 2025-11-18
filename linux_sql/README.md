@@ -48,6 +48,7 @@ crontab -e
 
 ### Architecture
 ![Cluster Diagram](./assets/Cluster_Diagram.png)
+
 As the diagram shows, three Rocky Linux hosts run Bash monitoring agent scripts to collect hardware and usage data. Each host sends these metrics directly to a centralized PostgreSQL database, where all information is stored and analyzed in one place.
 
 
