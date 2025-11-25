@@ -1,3 +1,6 @@
+## Introduction
+This project focuses on learning SQL and understanding how relational databases organize and manage data. I used PostgreSQL and DBeaver to practice the material and worked on  writing and testing different SQL queries. I explored how to retrieve data, update values, delete records, filter results, and use aggregates to answer more complex questions. Along the way, I was introduced to data modeling concepts such as schemas, table relationships, and how data is structured inside an RDBMS. I also looked at simple performance and optimization ideas, like how query structure and indexing can influence results.
+
 
 ## SQL Queries
 
