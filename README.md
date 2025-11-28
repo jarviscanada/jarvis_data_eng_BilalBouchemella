@@ -46,5 +46,5 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_BilalBouch
 
 ## Miscellaneous
 - Semi-professional soccer player
-- University Recruitment Bursary - Fondation Aleo (2021): Awarded to the best student-athletes in the province for excelling in both sport and academics at a Quebec institution
 - Varsity Men's Soccer Team Player of the Year - McGill Athletics (2022)
+- University Recruitment Bursary - Fondation Aleo (2021): Awarded to the best student-athletes in the province for excelling in both sport and academics at a Quebec institution
