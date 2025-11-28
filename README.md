@@ -4,9 +4,9 @@ I am a Master's student in Data Science and Business Analytics at HEC Montréal 
 
 ## Skills
 
-**Proficient:** Python, RDBMS/SQL (PostgreSQL), Java, Julia, Linux/Bash, Agile/Scrum, Git
+**Proficient:** Python, Java, RDBMS/SQL (PostgreSQL), Julia, Pandas/Numpy, Scikit-learn, Linux/Bash, Git, Agile/Scrum
 
-**Competent:** Cloud Technologies (AWS, GCP), Docker, Pandas, Numpy, Scikit-learn, Power BI, R
+**Competent:** Cloud platforms (AWS, GCP), Docker, Jira, Power BI, R
 
 **Familiar:** Spark, DataBricks, Snowflake, C, C++
 
@@ -19,18 +19,18 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_BilalBouch
 
 
 ## Highlighted Projects
-**News Coverage Analysis of Gladiator II**: Analyzed news coverage of Gladiator II by collecting hundreds of film-related articles with Python and NewsAPI, applying open coding and manual annotation to classify themes, computing TF-IDF scores to extract key terms, and visualizing coverage trends using JupyterLab and Matplotlib to compare the film's visibility with competing releases.
+**News Coverage Analysis of Gladiator II**: Analyzed news coverage of Gladiator II by collecting hundreds of film-related articles using Python and NewsAPI, applying open coding and manual annotation to classify themes, computing TF-IDF scores to extract key terms, and visualizing coverage trends with JupyterLab and Matplotlib to compare the film's visibility with other releases. This project strengthened my skills in text analysis, feature extraction, data collection pipelines, and collaborative workflow management through regular coordination and shared responsibilities.
 
-**Hotel Database Application**: Developed a full hotel database system by designing the schema, creating and managing SQL tables, and building a Java application with a user-friendly interface to interact with the database for queries, updates, and operations.
+**Hotel Database Application**: Developed a full hotel database system as part of a team project by designing the schema, creating and managing SQL tables, and building a Java application with a user-friendly interface for queries, updates, and operations. Worked closely with teammates where communication and coordination were essential, and took responsibility for organizing tasks, splitting work, and ensuring the database and application components integrated smoothly.
 
 
 ## Professional Experiences
 
 **Data Engineer, Jarvis Consulting Group (Nov 2025 - present)**: Developing data engineering solutions by building software components, creating data pipelines, and working with cloud and analytics technologies. Contribute to coding, debugging, and data processing tasks while applying strong problem-solving, communication, and code quality practices across projects.
 
-**Data Scientist, R2 (May 2025 - Aug 2025)**: Built ML models in Python and Julia for time-series predictive analytics, engineered preprocessing pipelines for large industrial datasets, designed experiments optimizing accuracy and efficiency, delivered reproducible workflows for the R&D team, and strengthened Linux/Git development practices.
+**Data Scientist, R2 (May 2025 - Aug 2025)**: Built and optimized machine learning models in Python and Julia for time-series predictive analytics on large industrial datasets, and engineered data cleaning and preprocessing pipelines to transform raw sensor data into reliable features. Designed and ran experiments to evaluate models with a balance of accuracy and efficiency, and developed reproducible workflows that supported collaboration across the data science team. Strengthened my experience with Linux-based development, Git for version control, and working with large-scale data in a research-focused environment.
 
-**Information Technology Technician, Tennis Canada (May 2024 - Apr 2025)**: Maintained network systems, provided technical support on Mac and Windows, ensured database accuracy for daily operations, and configured over 100 laptops for the 2024 Omnium Banque National tournament to meet event requirements.
+**Information Technology Technician, Tennis Canada (May 2024 - Apr 2025)**: Maintained and upgraded network systems in collaboration with IT teams, provided comprehensive technical support on Mac and Windows to improve staff productivity, and managed the office database to ensure accurate and accessible operational data. Used JIRA to track issues and coordinate tasks, and worked closely with colleagues to configure and maintain over 100 laptops for the 2024 Omnium Banque National tournament, ensuring all devices were fully operational and met event requirements.
 
 
 ## Education
@@ -45,6 +45,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_BilalBouch
 
 
 ## Miscellaneous
-- Semi-professional soccer player
 - Varsity Men's Soccer Team Player of the Year - McGill Athletics (2022)
 - University Recruitment Bursary - Fondation Aleo (2021): Awarded to the best student-athletes in the province for excelling in both sport and academics at a Quebec institution
+- Semi-professional soccer player with over six years of experience in Quebec. I have been playing since the age of five, developing strong values such as leadership, teamwork, discipline, and resilience through continuous training and competition.

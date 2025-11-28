@@ -13,19 +13,19 @@ skills:
   # At least 5 skills
   proficient:
     - Python
-    - RDBMS/SQL (PostgreSQL)
     - Java
+    - RDBMS/SQL (PostgreSQL)
     - Julia
+    - Pandas/Numpy
+    - Scikit-learn
     - Linux/Bash
+    - Git
     - Agile/Scrum
-    - Git  
   # At least 5 skills
   competent:
-    - Cloud Technologies (AWS, GCP)
+    - Cloud platforms (AWS, GCP)
     - Docker
-    - Pandas
-    - Numpy
-    - Scikit-learn
+    - Jira
     - Power BI
     - R
   # At least 5 skills
@@ -47,12 +47,11 @@ jarvis_projects:
 highlighted_projects:
   - name: "News Coverage Analysis of Gladiator II"
     git_url:
-    description: Analyzed news coverage of Gladiator II by collecting hundreds of film-related articles with Python and NewsAPI, applying open coding and manual annotation to classify themes, computing TF-IDF scores to extract key terms, and visualizing coverage trends using JupyterLab and Matplotlib to compare the film's visibility with competing releases. 
-  
+    description: Analyzed news coverage of Gladiator II by collecting hundreds of film-related articles using Python and NewsAPI, applying open coding and manual annotation to classify themes, computing TF-IDF scores to extract key terms, and visualizing coverage trends with JupyterLab and Matplotlib to compare the film's visibility with other releases. This project strengthened my skills in text analysis, feature extraction, data collection pipelines, and collaborative workflow management through regular coordination and shared responsibilities.
+
   - name: "Hotel Database Application"
     git_url:
-    description: Developed a full hotel database system by designing the schema, creating and managing SQL tables, and building a Java application with a user-friendly interface to interact with the database for queries, updates, and operations.
-
+    description: Developed a full hotel database system as part of a team project by designing the schema, creating and managing SQL tables, and building a Java application with a user-friendly interface for queries, updates, and operations. Worked closely with teammates where communication and coordination were essential, and took responsibility for organizing tasks, splitting work, and ensuring the database and application components integrated smoothly.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -67,12 +66,12 @@ professional_experience:
   - title: "Data Scientist"
     company: "R2"
     duration: "May 2025 - Aug 2025"
-    description: "Built ML models in Python and Julia for time-series predictive analytics, engineered preprocessing pipelines for large industrial datasets, designed experiments optimizing accuracy and efficiency, delivered reproducible workflows for the R&D team, and strengthened Linux/Git development practices."
+    description: "Built and optimized machine learning models in Python and Julia for time-series predictive analytics on large industrial datasets, and engineered data cleaning and preprocessing pipelines to transform raw sensor data into reliable features. Designed and ran experiments to evaluate models with a balance of accuracy and efficiency, and developed reproducible workflows that supported collaboration across the data science team. Strengthened my experience with Linux-based development, Git for version control, and working with large-scale data in a research-focused environment." 
 
   - title: "Information Technology Technician"
     company: "Tennis Canada"
     duration: "May 2024 - Apr 2025"
-    description: "Maintained network systems, provided technical support on Mac and Windows, ensured database accuracy for daily operations, and configured over 100 laptops for the 2024 Omnium Banque National tournament to meet event requirements."
+    description: "Maintained and upgraded network systems in collaboration with IT teams, provided comprehensive technical support on Mac and Windows to improve staff productivity, and managed the office database to ensure accurate and accessible operational data. Used JIRA to track issues and coordinate tasks, and worked closely with colleagues to configure and maintain over 100 laptops for the 2024 Omnium Banque National tournament, ensuring all devices were fully operational and met event requirements."
 
 #List of edcuation
 education: 
@@ -95,11 +94,14 @@ education:
 
 #Optional section
 others:
-  - title: "Activities"
-    bullets:
-      - "Semi-professional soccer player"
-
   - title: "Awards"
     bullets:
       - "Varsity Men's Soccer Team Player of the Year - McGill Athletics (2022)"
       - "University Recruitment Bursary - Fondation Aleo (2021): Awarded to the best student-athletes in the province for excelling in both sport and academics at a Quebec institution"
+
+  - title: "Activities"
+    bullets:
+      - "Semi-professional soccer player with over six years of experience in Quebec. I have been playing since the age of five, developing strong values such as leadership, teamwork, discipline, and resilience through continuous training and competition."
+
+
+

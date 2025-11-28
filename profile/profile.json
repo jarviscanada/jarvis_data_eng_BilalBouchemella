@@ -25,12 +25,12 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_BilalBouchemella",
   "highlighted_projects": [
     {
-      "description": "Analyzed news coverage of Gladiator II by collecting hundreds of film-related articles with Python and NewsAPI, applying open coding and manual annotation to classify themes, computing TF-IDF scores to extract key terms, and visualizing coverage trends using JupyterLab and Matplotlib to compare the film's visibility with competing releases.",
+      "description": "Analyzed news coverage of Gladiator II by collecting hundreds of film-related articles using Python and NewsAPI, applying open coding and manual annotation to classify themes, computing TF-IDF scores to extract key terms, and visualizing coverage trends with JupyterLab and Matplotlib to compare the film's visibility with other releases. This project strengthened my skills in text analysis, feature extraction, data collection pipelines, and collaborative workflow management through regular coordination and shared responsibilities.",
       "git_url": null,
       "name": "News Coverage Analysis of Gladiator II"
     },
     {
-      "description": "Developed a full hotel database system by designing the schema, creating and managing SQL tables, and building a Java application with a user-friendly interface to interact with the database for queries, updates, and operations.",
+      "description": "Developed a full hotel database system as part of a team project by designing the schema, creating and managing SQL tables, and building a Java application with a user-friendly interface for queries, updates, and operations. Worked closely with teammates where communication and coordination were essential, and took responsibility for organizing tasks, splitting work, and ensuring the database and application components integrated smoothly.",
       "git_url": null,
       "name": "Hotel Database Application"
     }
@@ -46,16 +46,16 @@
   "others": [
     {
       "bullets": [
-        "Semi-professional soccer player"
-      ],
-      "title": "Activities"
-    },
-    {
-      "bullets": [
         "Varsity Men's Soccer Team Player of the Year - McGill Athletics (2022)",
         "University Recruitment Bursary - Fondation Aleo (2021): Awarded to the best student-athletes in the province for excelling in both sport and academics at a Quebec institution"
       ],
       "title": "Awards"
+    },
+    {
+      "bullets": [
+        "Semi-professional soccer player with over six years of experience in Quebec. I have been playing since the age of five, developing strong values such as leadership, teamwork, discipline, and resilience through continuous training and competition."
+      ],
+      "title": "Activities"
     }
   ],
   "professional_experience": [
@@ -67,24 +67,22 @@
     },
     {
       "company": "R2",
-      "description": "Built ML models in Python and Julia for time-series predictive analytics, engineered preprocessing pipelines for large industrial datasets, designed experiments optimizing accuracy and efficiency, delivered reproducible workflows for the R\u0026D team, and strengthened Linux/Git development practices.",
+      "description": "Built and optimized machine learning models in Python and Julia for time-series predictive analytics on large industrial datasets, and engineered data cleaning and preprocessing pipelines to transform raw sensor data into reliable features. Designed and ran experiments to evaluate models with a balance of accuracy and efficiency, and developed reproducible workflows that supported collaboration across the data science team. Strengthened my experience with Linux-based development, Git for version control, and working with large-scale data in a research-focused environment.",
       "duration": "May 2025 - Aug 2025",
       "title": "Data Scientist"
     },
     {
       "company": "Tennis Canada",
-      "description": "Maintained network systems, provided technical support on Mac and Windows, ensured database accuracy for daily operations, and configured over 100 laptops for the 2024 Omnium Banque National tournament to meet event requirements.",
+      "description": "Maintained and upgraded network systems in collaboration with IT teams, provided comprehensive technical support on Mac and Windows to improve staff productivity, and managed the office database to ensure accurate and accessible operational data. Used JIRA to track issues and coordinate tasks, and worked closely with colleagues to configure and maintain over 100 laptops for the 2024 Omnium Banque National tournament, ensuring all devices were fully operational and met event requirements.",
       "duration": "May 2024 - Apr 2025",
       "title": "Information Technology Technician"
     }
   ],
   "skills": {
     "competent": [
-      "Cloud Technologies (AWS, GCP)",
+      "Cloud platforms (AWS, GCP)",
       "Docker",
-      "Pandas",
-      "Numpy",
-      "Scikit-learn",
+      "Jira",
       "Power BI",
       "R"
     ],
@@ -97,12 +95,14 @@
     ],
     "proficient": [
       "Python",
-      "RDBMS/SQL (PostgreSQL)",
       "Java",
+      "RDBMS/SQL (PostgreSQL)",
       "Julia",
+      "Pandas/Numpy",
+      "Scikit-learn",
       "Linux/Bash",
-      "Agile/Scrum",
-      "Git"
+      "Git",
+      "Agile/Scrum"
     ]
   },
   "summary": "I am a Master's student in Data Science and Business Analytics at HEC Montréal and a Computer Science graduate from McGill University, where I focused on data engineering, data analysis, and machine learning. I currently work as a Data Engineer at Jarvis, where I build data pipelines, develop software components, and work with cloud and analytics technologies. I previously worked as a Data Scientist and an IT Technician, using technologies such as Python and Julia to build analytical workflows and automate data tasks, while gaining experience in machine learning, data processing, and system operations. These experiences strengthened my passion for leveraging data, machine learning, and AI to create practical, reliable solutions that address real-world challenges."
