@@ -1,0 +1,109 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Student-Athlete: Varsity Men's Soccer",
+        "Relevant Coursework: Machine Learning, Statistical Modelling, and Statistical Learning"
+      ],
+      "degree": "Master of Science (MSc)",
+      "department": "Data Science \u0026 Business Analytics",
+      "duration": "2025 - present",
+      "school_name": "HEC Montreal"
+    },
+    {
+      "awards_achievements": [
+        "Student-Athlete: Varsity Men's Soccer Team Captain",
+        "McGill Redbird Athlete Award (2021, 2022, 2023): Awarded to varsity student-athletes who excel in their sport",
+        "Relevant Coursework: Data Science, Natural Language to Data Science, Applied Machine Learning, Reinforcement Learning, Database Systems, Software Design, Algorithms and Data Structures, Operating Systems, Discrete Structures, Probability, Statistics, and Statistical Computing"
+      ],
+      "degree": "Bachelor of Science (BSc)",
+      "department": "Computer Science",
+      "duration": "2021 - 2025",
+      "school_name": "McGill University"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_BilalBouchemella",
+  "highlighted_projects": [
+    {
+      "description": "Analyzed news coverage of Gladiator II by collecting hundreds of film-related articles with Python and NewsAPI, applying open coding and manual annotation to classify themes, computing TF-IDF scores to extract key terms, and visualizing coverage trends using JupyterLab and Matplotlib to compare the film's visibility with competing releases.",
+      "git_url": null,
+      "name": "News Coverage Analysis of Gladiator II"
+    },
+    {
+      "description": "Developed a full hotel database system by designing the schema, creating and managing SQL tables, and building a Java application with a user-friendly interface to interact with the database for queries, updates, and operations.",
+      "git_url": null,
+      "name": "Hotel Database Application"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Built a Linux monitoring agent that collects hardware details and tracks CPU, memory, and disk usage across several machines. Used Bash scripts, Docker, PostgreSQL, and cron to store and centralize system data, helping analyze performance and plan future resource needs.",
+      "git_url": "/linux_sql",
+      "name": "Linux Cluster Monitoring Agent"
+    }
+  ],
+  "name": "Bilal Bouchemella",
+  "others": [
+    {
+      "bullets": [
+        "Semi-professional soccer player"
+      ],
+      "title": "Activities"
+    },
+    {
+      "bullets": [
+        "University Recruitment Bursary - Fondation Aleo (2021): Awarded to the best student-athletes in the province for excelling in both sport and academics at a Quebec institution",
+        "Varsity Men's Soccer Team Player of the Year - McGill Athletics (2022)"
+      ],
+      "title": "Awards"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis Consulting Group",
+      "description": "Developing data engineering solutions by building software components, creating data pipelines, and working with cloud and analytics technologies. Contribute to coding, debugging, and data processing tasks while applying strong problem-solving, communication, and code quality practices across projects.",
+      "duration": "Nov 2025 - present",
+      "title": "Data Engineer"
+    },
+    {
+      "company": "R2",
+      "description": "Built ML models in Python and Julia for time-series predictive analytics, engineered preprocessing pipelines for large industrial datasets, designed experiments optimizing accuracy and efficiency, delivered reproducible workflows for the R\u0026D team, and strengthened Linux/Git development practices.",
+      "duration": "May 2025 - Aug 2025",
+      "title": "Data Scientist"
+    },
+    {
+      "company": "Tennis Canada",
+      "description": "Maintained network systems, provided technical support on Mac and Windows, ensured database accuracy for daily operations, and configured over 100 laptops for the 2024 Omnium Banque National tournament to meet event requirements.",
+      "duration": "May 2024 - Apr 2025",
+      "title": "Information Technology Technician"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Cloud Technologies (AWS, GCP)",
+      "Docker",
+      "Pandas",
+      "Numpy",
+      "Scikit-learn",
+      "Power BI",
+      "R"
+    ],
+    "familiar": [
+      "Spark",
+      "DataBricks",
+      "Snowflake",
+      "C",
+      "C++"
+    ],
+    "proficient": [
+      "Python",
+      "RDBMS/SQL (PostgreSQL)",
+      "Java",
+      "Julia",
+      "Linux/Bash",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "I am a Master's student in Data Science and Business Analytics at HEC Montréal and a Computer Science graduate from McGill University. I currently work as a Data Engineer at Jarvis, where I build data pipelines, develop software components, and work with cloud and analytics technologies. Previously, I worked as a Data Scientist and an IT Technician, gaining experience in machine learning, data processing, and system operations. These roles strengthened my passion for leveraging data, machine learning, and AI to create practical, reliable solutions that address real-world challenges."
+}
