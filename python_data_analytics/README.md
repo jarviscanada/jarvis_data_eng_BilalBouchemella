@@ -18,7 +18,18 @@ This PoC demonstrates how data analytics can transform raw transactional data in
 
 
 ## Implementation
-### Architecture
+### Online Store Cloud Architecture
+
+The LGS e-commerce platform is deployed on Azure, and the Jarvis Data Analytics PoC operates as a separate analytical environment.
+
+- **Front-end (Web App):** Customers access the store through a browser. Static assets such as HTML, CSS, JavaScript, and product images are delivered through a CDN and stored in Azure Blob Storage.
+
+- **Backend (API Stack):** API requests are routed through Azure API Management and handled by microservices running on Azure Kubernetes Service (AKS). All transactional activity is recorded in an Azure SQL Server (OLTP) database.
+
+- **Data Extraction for Analytics:** Because the PoC cannot interact with the live Azure systems, the LGS IT team exported two years of anonymized transactional data into a SQL dump (`retail.sql`), serving as a simplified data-warehouse extract.
+
+- **Jarvis Analytics Environment:** `The file is loaded into a PostgreSQL database running in Docker. A Jupyter Notebook connects to this warehouse to perform data wrangling, visualization, and analytics such as sales trends, customer activity, and RFM metrics.
+
 ![Architecture](./assets/architecture.png)
 
 
@@ -30,8 +41,14 @@ See the full Jupyter Notebook: [Retail Data Analytics & Wrangling Notebook](./re
 
 
 ## Improvements
-**1. :** 
+##### 1. Build an automated ETL pipeline
+Develop a fully automated pipeline to ingest new transactional data from source systems, clean and validate records, and load them into a structured data warehouse on a recurring schedule. This would eliminate manual processing, ensure data freshness, and allow LGS to continuously track customer behaviour and sales performance.
 
-**2. :** 
 
-**3. :** 
+##### 2. Deploy dashboard
+Create dynamic dashboards using tools like Tableau or Power BI to give the LGS marketing team real-time access to sales trends, customer insights, RFM segments, and user activity metrics. This would allow non-technical users to explore the data visually, filter by customer groups or time periods, and make faster, data-driven decisions.
+
+##### 3. Implement advanced customer analytics:
+Expand the analysis beyond basic RFM metrics by applying machine learning techniques such as clustering for customer segmentation, forecasting models for sales prediction, or churn-prediction models to identify at-risk customers. These insights would allow LGS to design more precise and proactive marketing strategies.
+
+
