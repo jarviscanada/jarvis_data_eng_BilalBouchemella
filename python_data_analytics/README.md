@@ -18,7 +18,7 @@ This PoC demonstrates how data analytics can transform raw transactional data in
 
 
 ## Implementation
-### Online Store Cloud Architecture
+### Project Architecture
 
 The LGS e-commerce platform is deployed on Azure, and the Jarvis Data Analytics PoC operates as a separate analytical environment.
 
@@ -28,17 +28,46 @@ The LGS e-commerce platform is deployed on Azure, and the Jarvis Data Analytics 
 
 - **Data Extraction for Analytics:** Because the PoC cannot interact with the live Azure systems, the LGS IT team exported two years of anonymized transactional data into a SQL dump (`retail.sql`), serving as a simplified data-warehouse extract.
 
-- **Jarvis Analytics Environment:** `The file is loaded into a PostgreSQL database running in Docker. A Jupyter Notebook connects to this warehouse to perform data wrangling, visualization, and analytics such as sales trends, customer activity, and RFM metrics.
-
-![Architecture](./assets/architecture.png)
-
-
+- **Jarvis Analytics Environment:** The file is loaded into a PostgreSQL database running in Docker. A Jupyter Notebook connects to this warehouse to perform data wrangling, visualization, and analytics such as sales trends, customer activity, and RFM metrics.
 
 
 ### Data Analytics and Wrangling
 See the full Jupyter Notebook: [Retail Data Analytics & Wrangling Notebook](./retail_data_analytics_wrangling.ipynb)
 
+RFM analysis highlights three key customer groups that LGS can target to increase revenue:
 
+#####  1. High-Value Customers
+
+They purchase often and spend the most.
+- Champions: very recent buyers (~7 days), very frequent, highest spend
+- Loyal Customers: recent buyers (~66 days), high frequency
+
+**Strategy:**
+Reward them with VIP offers, personalized recommendations, and referral incentives.
+
+##### 2. Growing Customers
+
+They show good recent activity and moderate spending.
+- Potential Loyalists: recent purchases (~24 days), increasing frequency
+
+**Strategy:**
+Encourage them toward loyalty with targeted promotions and product suggestions.
+
+##### 3. At-Risk Customers
+Customers who used to be valuable but haven’t purchased recently.
+
+- At Risk: very long inactivity (~375 days), strong past spending
+
+- Can’t Lose: long inactivity (~319 days), very high historical frequency and spending
+
+**Strategy:**
+Use targeted win-back campaigns that include personalized product recommendations based on past purchases or viewed items. Highlight new or popular products similar to what they previously showed interest in. For high-value customers like Can’t Lose, reach out directly to understand why they became inactive and offer a small incentive or gift for providing feedback.
+
+#### Business Impact
+Focusing on these three groups helps LGS:
+- Protect its highest revenue contributors
+- Convert mid-tier customers into loyal buyers
+- Recover revenue from customers at risk of churn
 
 ## Improvements
 ##### 1. Build an automated ETL pipeline
