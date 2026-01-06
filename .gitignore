@@ -1,2 +1,19 @@
 .ipynb_checkpoints/
-.ipynb_checkpoints/
+# Maven
+target/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
