@@ -48,11 +48,16 @@ jarvis_projects:
 
   - name: "Java Grep App"
     git_url: "/core_java/grep"
-    description:  Built a Linux monitoring agent that collects hardware details and tracks CPU, memory, and disk usage across several machines. Used Bash scripts, Docker, Post
+    description: Developed a Java command line application that replicates the core functionality of the Linux grep command, enabling users to search files for lines matching a given regular expression. Built as a Maven project, the application recursively traverses directories, reads files line by line, applies regex pattern matching, and writes matched results to an output file. The project strengthened core Java skills including file I O, regular expressions, exception handling, logging, and project structuring, while integrating industry tools such as Maven for dependency management, SLF4J with Log4j2 for logging, and GitHub for version control. Testing was performed through manual execution and debugging, with JUnit used for validation, and the application was packaged as a runnable JAR and distributed using Docker for consistent deployment across environments.
 
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
+
+  - name: "Machine Learning Framework for Credit Risk Modeling"
+    git_url:
+    description: Designed a machine learning framework to predict credit default risk using financial and behavioral data. Engineered advanced features such as financial ratios, interaction terms, and normalization using Python with Pandas and NumPy to improve model performance. Trained and compared three models including Logistic Regression, Random Forest, and XGBoost using cross validation and evaluated performance with ROC AUC, precision recall, and KS statistic via Scikit-learn. Analyzed model performance and errors to select an optimal approach and support data driven risk decisions, and created visualizations using Plotly to present model results and performance comparisons.
+
   - name: "News Coverage Analysis of Gladiator II"
     git_url:
     description: Analyzed news coverage of Gladiator II by collecting hundreds of film-related articles using Python and NewsAPI, applying open coding and manual annotation to classify themes, computing TF-IDF scores to extract key terms, and visualizing coverage trends with JupyterLab and Matplotlib to compare the film's visibility with other releases. This project strengthened my skills in text analysis, feature extraction, data collection pipelines, and collaborative workflow management through regular coordination and shared responsibilities.
