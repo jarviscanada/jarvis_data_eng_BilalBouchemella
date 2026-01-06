@@ -38,17 +38,17 @@ skills:
 
 # List of Jarvis projects
 jarvis_projects:
-  - name: "Linux Cluster Monitoring Agent"
-    git_url: "/linux_sql"
-    description: Built a Linux monitoring agent that collects hardware details and tracks CPU, memory, and disk usage across several machines. Used Bash scripts, Docker, PostgreSQL, and cron to store and centralize system data, helping analyze performance and plan future resource needs.
-  
   - name: "Python Customer & Performance Analytics PoC"
     git_url: "/python_data_analytics"
     description: Analyzed two years of e-commerce transaction data to identify customer behavior, purchasing patterns, seasonality, and customer value. Built an analytics pipeline using Python with Pandas, NumPy, and Matplotlib in Jupyter Notebook, connected to PostgreSQL and Docker. Performed data wrangling and feature engineering including type casting, handling missing values, and creating monthly and behavioral metrics to produce structured analytical datasets. Computed RFM metrics, monthly sales trends, and active user insights to distinguish new versus returning customers, and delivered visual insights to support targeted marketing campaigns, personalized promotions, and customer retention strategies.
 
   - name: "Java Grep App"
-    git_url: "/core_java/grep"
+    git_url: "/core_java"
     description: Developed a Java command line application that replicates the core functionality of the Linux grep command, enabling users to search files for lines matching a given regular expression. Built as a Maven project, the application recursively traverses directories, reads files line by line, applies regex pattern matching, and writes matched results to an output file. The project strengthened core Java skills including file I O, regular expressions, exception handling, logging, and project structuring, while integrating industry tools such as Maven for dependency management, SLF4J with Log4j2 for logging, and GitHub for version control. Testing was performed through manual execution and debugging, with JUnit used for validation, and the application was packaged as a runnable JAR and distributed using Docker for consistent deployment across environments.
+
+  - name: "Linux Cluster Monitoring Agent"
+    git_url: "/linux_sql"
+    description: Built a Linux monitoring agent that collects hardware details and tracks CPU, memory, and disk usage across several machines. Used Bash scripts, Docker, PostgreSQL, and cron to store and centralize system data, helping analyze performance and plan future resource needs.
 
 # List of personal or academic projects
 # Feel free to add more projects
