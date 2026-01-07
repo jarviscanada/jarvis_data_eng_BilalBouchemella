@@ -44,7 +44,7 @@ jarvis_projects:
 
   - name: "Java Grep App"
     git_url: "/core_java"
-    description: Developed a Java command line application that replicates the core functionality of the Linux grep command, enabling users to search files for lines matching a given regular expression. Built as a Maven project, the application recursively traverses directories, reads files line by line, applies regex pattern matching, and writes matched results to an output file. The project strengthened core Java skills including file I O, regular expressions, exception handling, logging, and project structuring, while integrating industry tools such as Maven for dependency management, SLF4J with Log4j2 for logging, and GitHub for version control. Testing was performed through manual execution and debugging, with JUnit used for validation, and the application was packaged as a runnable JAR and distributed using Docker for consistent deployment across environments.
+    description: Developed a Java-based command-line application using object-oriented programming principles to replicate the core functionality of the Linux grep command. The application recursively traverses user-specified directories, reads files line by line, and applies user-defined regular expression patterns using Java Streams and Lambda expressions to efficiently filter matching lines before writing results to an output file. Maven was used for project structure and dependency management, with GitHub for version control. The application was manually tested and debugged, and unit tested using JUnit. For deployment, it was packaged as a runnable JAR and distributed via Docker using a custom Dockerfile.
 
   - name: "Linux Cluster Monitoring Agent"
     git_url: "/linux_sql"
