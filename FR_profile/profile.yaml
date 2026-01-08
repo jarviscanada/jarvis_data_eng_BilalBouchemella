@@ -38,6 +38,15 @@ skills:
 
 # List of Jarvis projects
 jarvis_projects:
+
+  - name: "Python – Analyse clients et performance (PoC)"
+    git_url: "/python_data_analytics"
+    description: Analyse de deux années de données transactionnelles e-commerce afin d’identifier les comportements clients, les habitudes d’achat, la saisonnalité et la valeur client. Mise en place d’un pipeline analytique en Python (Pandas, NumPy, Matplotlib) sous Jupyter, connecté à PostgreSQL et Docker. Nettoyage et structuration des données, création d’indicateurs comportementaux et mensuels, calcul des métriques RFM, tendances de ventes et utilisateurs actifs pour différencier clients nouveaux et récurrents, et soutenir des stratégies de marketing ciblé et de rétention.
+
+  - name: "Java Grep Application"
+    git_url: "/core_java"
+    description: Développement d’une application Java en ligne de commande reproduisant les fonctionnalités essentielles de la commande Linux grep, en s’appuyant sur les principes de la programmation orientée objet. Parcours récursif de répertoires, lecture de fichiers ligne par ligne et filtrage via expressions régulières avec Streams et lambda expressions. Gestion du projet avec Maven et GitHub, tests manuels et unitaires avec JUnit, puis déploiement sous forme de JAR exécutable et d’image Docker via un Dockerfile personnalisé.
+
   - name: "Agent de surveillance d'un cluster Linux"
     git_url: "/linux_sql"
     description: Conception d'un agent de surveillance pour un cluster Linux permettant à l'utilisateur de consulter et centraliser les informations matérielles de chaque machine, notamment l'utilisation du CPU, de la mémoire et du disque. Le système assure un suivi continu des performances en collectant automatiquement les données à intervalles réguliers grâce à un cron job. L'agent repose sur des scripts Bash qui récupèrent les informations système et les stockent dans une base de données PostgreSQL. L'ensemble du projet est déployé à l'aide de Docker afin de garantir une installation, une portabilité et une gestion uniformes sur différentes machines.
@@ -45,6 +54,11 @@ jarvis_projects:
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
+  - name: "Modélisation du risque de crédit par machine learning"
+    git_url:
+    description: Développement de modèles prédictifs du défaut de crédit à partir de données financières et comportementales. Création de variables pertinentes (ratios financiers, interactions, normalisation) en Python (Pandas, NumPy). Entraînement et comparaison de modèles (régression logistique, Random Forest, XGBoost) avec validation croisée, évalués via ROC-AUC, précision-rappel et statistique KS. Analyse des performances pour appuyer des décisions de gestion du risque, avec visualisations interactives sous Plotly.
+
+
   - name: "Analyse de la couverture médiatique de Gladiator II"
     git_url:
     description: Analyse de la couverture médiatique du film Gladiator II en collectant des centaines d'articles liés au film à l'aide de Python et de NewsAPI. Appliquant un open coding et une annotation manuelle pour classer les thèmes, j'ai ensuite calculé des scores TF-IDF afin d'extraire les termes clés et visualisé les tendances de couverture avec JupyterLab et Matplotlib pour comparer la visibilité du film avec d'autres sorties. Ce projet m'a permis de renforcer mes compétences en analyse textuelle, en extraction de caractéristiques, en pipelines de collecte de données et en collaboration au sein de l'équipe grâce à une coordination régulière et au partage des responsabilités.
