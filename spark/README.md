@@ -21,8 +21,6 @@ The dataset used in this implementation is the **London Gift Shop transactional 
 
 The dataset represents real-world retail transactions and is well suited for customer behavior and marketing analytics.
 
----
-
 ### Analytics Work
 
 All analytics were implemented using **PySpark on Databricks**. The main steps include:
