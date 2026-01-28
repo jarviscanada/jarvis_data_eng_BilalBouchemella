@@ -4,16 +4,18 @@ I am a Master's student in Data Science and Business Analytics at HEC Montréal 
 
 ## Skills
 
-**Proficient:** Python, Java, RDBMS/SQL (PostgreSQL), Julia, Pandas/Numpy, Scikit-learn, Linux/Bash, Git, Agile/Scrum
+**Proficient:** Python, Java, RDBMS/SQL (PostgreSQL), Julia, Pandas/Numpy, Scikit-learn, Git, Agile/Scrum
 
-**Competent:** Cloud platforms (AWS, GCP), Docker, Jira, Power BI, R
+**Competent:** DataBricks, Snowflake, Apache Spark, Cloud platforms (AWS, GCP, Azure), Linux/Bash, Docker, Power BI, R
 
-**Familiar:** Spark, DataBricks, Snowflake, C, C++
+**Familiar:** PySpark, Jira, Scala, C, C++
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_BilalBouchemella](https://github.com/jarviscanada/jarvis_data_eng_BilalBouchemella)
 
+
+**Big Data Customer Analytics with Apache Spark (Databricks)** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BilalBouchemella/tree/master/spark)]: Re-architected an existing customer analytics solution for the London Gift Shop to support large-scale data processing using Apache Spark on Databricks (Azure). Migrated single-machine Python analytics to a distributed PySpark workflow, enabling scalable data loading, cleaning, and transformation of transactional retail data stored in cloud object storage. Implemented customer-level aggregations and computed RFM (Recency, Frequency, Monetary) metrics to segment customers based on purchasing behavior. Applied rule-based segmentation to identify key marketing segments such as Champions, Can’t Lose, and Hibernating customers, generating actionable insights for targeted marketing campaigns. Leveraged Databricks Workspace, DBFS, Hive Metastore, and PySpark to build a cloud-native, production-ready analytics pipeline.
 
 **Python Customer & Performance Analytics PoC** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BilalBouchemella/tree/master/python_data_analytics)]: Analyzed two years of e-commerce transaction data to identify customer behavior, purchasing patterns, seasonality, and customer value. Built an analytics pipeline using Python with Pandas, NumPy, and Matplotlib in Jupyter Notebook, connected to PostgreSQL and Docker. Performed data wrangling and feature engineering including type casting, handling missing values, and creating monthly and behavioral metrics to produce structured analytical datasets. Computed RFM metrics, monthly sales trends, and active user insights to distinguish new versus returning customers, and delivered visual insights to support targeted marketing campaigns, personalized promotions, and customer retention strategies.
 
